@@ -30,6 +30,7 @@ public class _02_GuestBook implements ActionListener{
 		button2.setText("View Names");
 		button.addActionListener(this);
 		button2.addActionListener(this);
+		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 		
 	
 	}
@@ -41,7 +42,7 @@ public class _02_GuestBook implements ActionListener{
 		}
 	if(e.getSource() == button2) {
 		for (int i = 0; i < names.size(); i++) {
-			JOptionPane.showMessageDialog(frame,"Guest # " + i + 1 + names.get(i) + "\n");
+			JOptionPane.showMessageDialog(frame,"Guest # " + i + 1 + " " + names.get(i) + "\n");
 		} 
 		
 	}
