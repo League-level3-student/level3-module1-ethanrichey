@@ -3,6 +3,10 @@ package _01_IntroToArrayLists;
 import java.util.ArrayList;
 import java.util.Random;
 
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
 
 //Copyright The League of Amazing Programmers, 2015
 
@@ -23,5 +27,11 @@ public class _06_IPodShuffle{
 	
 	public static void main(String[] args) {
 		new _06_IPodShuffle();
+		
+		JFrame frame = new JFrame();
+		JPanel panel = new JPanel();
+		JButton button = new JButton();
+		button.setName("Surprise Me");
+		
 	}
 }
