@@ -6,12 +6,23 @@ import java.util.Stack;
 import javax.swing.JOptionPane;
 
 public class _01_IntroToStack {
+	
 	public static void main(String[] args) {
+		double randDub = Math.random() * 100;
+		_01_IntroToStack its = new _01_IntroToStack();
+		System.out.println(randDub);
 		//1. Create a Stack of Doubles
 		//   Don't forget to import the Stack class
-		
+		Stack<Double> dubs = new Stack<Double>();
 		//2. Use a loop to push 100 random doubles between 0 and 100 to the Stack.
 		
+		for(int i = 0; i < 100; i++) {
+			dubs.push(randDub);
+		
+		//JOptionPane.showMessageDialog(null, "Enter two numbers between 0 and 100");
+		//double lowNumb() = JOptionPane.showInputDialog("Lowest Number:");
+		JOptionPane.showInputDialog("Highes Number:");
+	}
 		//3. Ask the user to enter in two numbers between 0 and 100, inclusive. 
 		
 		//4. Pop all the elements off of the Stack. Every time a double is popped that is
@@ -32,4 +43,4 @@ public class _01_IntroToStack {
 		//   66.47984807
 		//   74.12121224
 	}
-}
+
