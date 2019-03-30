@@ -38,6 +38,7 @@ public class StringIntegerPair {
 			keys1[i] = keys[i];
 		}
 		//G. Set the keys and values arrays equal to the new arrays created in steps B and C.
+		
 	}
 	
 	//5. Complete the method so it returns the value located at the passed in key.
